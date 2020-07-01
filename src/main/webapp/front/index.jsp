@@ -50,7 +50,7 @@
 
 <body>
 <%@include file="/front/common/navigation.jsp" %>
-<%@include file="/front/common/indexSlide.jsp" %>
+<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)"></div>
 <div class="banners" >
     <ul>
         <li class="banners_li">
