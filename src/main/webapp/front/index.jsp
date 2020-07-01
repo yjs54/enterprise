@@ -50,30 +50,30 @@
 
 <body>
 <%@include file="/front/common/navigation.jsp" %>
-<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)"></div>
+<div class="banner" style="background-image: url(<%=path%>/resource/images/help4.jpg)"></div>
 <div class="banners" >
     <ul>
         <li class="banners_li">
             <a href="<%=path%>/service">
                 <div>
-                    <h3>服务领域</h3>
-                    <p>别墅装修，校区装修</p>
+                    <h3>任务分区</h3>
+                    <p>各类任务，供你选择</p>
                 </div>
             </a>
         </li>
         <li class="banners_li">
             <a href="<%=path%>/article">
                 <div>
-                    <h3>新闻动态</h3>
-                    <p>公司动态，行业新闻</p>
+                    <h3>相关资讯</h3>
+                    <p>活动宣传，兼职发布</p>
                 </div>
             </a>
         </li>
         <li class="banners_li banners_li_last">
-            <a href="<%=path%>/about">
+            <a href="<%=path%>/manage/user/logout">
                 <div>
-                    <h3>关于我们</h3>
-                    <p>了解我们，了解华宇</p>
+                    <h3>管理系统</h3>
+                    <p>管理后台，审核任务</p>
                 </div>
             </a>
         </li>

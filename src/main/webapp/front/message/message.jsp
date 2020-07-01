@@ -35,13 +35,13 @@
 <script type="text/javascript" src="<%=path%>/resource/validator/local/zh-CN.js"></script>
 <body>
 <%@include file="/front/common/navigation.jsp" %>
-<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)">
+<%--<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)">--%>
 
 </div>
 <div class="warp_main">
     <div class="warp_left">
         <div class="warp_left_box">
-            <h3>在线留言</h3>
+            <h3>发布任务</h3>
 
         </div>
     </div>
@@ -49,7 +49,7 @@
         <div class="breadcrumb">
             <a href="<%=path%>/index">首页</a>
             >
-            <a href="<%=path%>/message">在线留言</a>
+            <a href="<%=path%>/message">发布任务</a>
         </div>
         <div style="overflow: hidden;">
             <div class="article_content">
@@ -64,19 +64,19 @@
                         </tr>
                         <tr>
                             <td align="right">
-                                姓名:
+                                tag:
                             </td>
                             <td><input type="text" class="message_input" name="name" id="name" data-rule="姓名:required;">
 
                             </td>
                         </tr>
-                        <tr>
+         <%--               <tr>
                             <td align="right">性别：</td>
                             <td><input type="radio" name="gender" value="m" checked="checked">男士 &nbsp;&nbsp;&nbsp;
                                 <input
                                         type="radio" name="gender" value="f">女士
                             </td>
-                        </tr>
+                      </tr>
                         <tr>
                             <td align="right">
                                 联系电话:
@@ -86,7 +86,7 @@
                         <tr>
                             <td align="right">Email:</td>
                             <td><input type="text" class="message_input" name="email" id="eamil" data-rule="邮件:required;email;"></td>
-                        </tr>
+                        </tr>         --%>
                         <tr>
                             <td align="right">内容:</td>
                             <td><textarea rows="5" cols="50" class="message_textarea" name="content" id="content" data-rule="内容:required;length[1~300];"></textarea></td>

@@ -11,13 +11,13 @@
 <%@include file="/front/common/common.jsp" %>
 <body>
 <%@include file="/front/common/navigation.jsp" %>
-<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)">
+<%--<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)">--%>
 
-</div>
+
 <div class="warp_main">
     <div class="warp_left">
         <div class="warp_left_box">
-            <h3>服务领域</h3>
+            <h3>任务分区</h3>
             <ul>
                 <c:forEach var="item" items="<%=SystemManage.getInstance().getService()%>">
                     <li <c:if test="${!empty id && id eq item.id}">class="active"</c:if> ><a href="<%=path%>/service/${item.id}">${item.title}</a></li>
@@ -29,7 +29,7 @@
         <div class="breadcrumb">
             <a href="<%=path%>/index">首页</a>
             >
-            <a href="<%=path%>/service">服务领域</a>
+            <a href="<%=path%>/service">任务分区</a>
             <%
                 String id = (String)request.getAttribute("id");
                     for (Service ac : SystemManage.getInstance().getService()) {
@@ -66,3 +66,4 @@
 
 
 <%@include file="/front/common/foot.jsp"%>
+</body>

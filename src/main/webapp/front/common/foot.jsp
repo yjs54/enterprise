@@ -20,7 +20,7 @@
     </div>
     <div class="foot_bottom">
         <p> Copyright
-            2016 <%=SystemManage.getInstance().getSystemSetting().getTitle()%> <%=SystemManage.getInstance().getSystemSetting().getIcp()%>
+            2020 <%=SystemManage.getInstance().getSystemSetting().getTitle()%> <%=SystemManage.getInstance().getSystemSetting().getIcp()%>
         </p>
     </div>
 </div>
